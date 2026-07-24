@@ -79,3 +79,18 @@ SELECT a.invoice_id,a.product_id,b.name ,a.extra_details->'promo_code' as promo_
  FROM supermarket.invoices a
  inner join supermarket.products b
  on a.product_id=b.product_id
+
+
+--Updating information in an existing row in a table
+UPDATE supermarket.customers
+SET phone = '555-0111'
+where customer_id = 1;
+--where email ='alice.smith@example.com';
+
+UPDATE supermarket.products
+SET unit_price = 4.99, cost_price = 3.80, updated_at = current_timestamp
+where product_id = 1;
+
+UPDATE supermarket.invoices
+SET extra_details = jsonb_set(extra_details, '{promo_code}', '"WELCOMEBACK20"')
+where invoice_id = 1;
