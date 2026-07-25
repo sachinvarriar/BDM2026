@@ -43,6 +43,13 @@ FROM mobility.rentals
 GROUP BY date_trunc('month', started_at)
 ORDER BY month;
 
+SELECT extract(month from started_at) AS month,
+        extract(year from started_at) AS year,
+       count(*) AS rides
+FROM mobility.rentals
+GROUP BY extract(month from started_at), extract(year from started_at)
+ORDER BY year,month;
+
 -- G4. Group by MULTIPLE columns.
 --     Each distinct (congestion_level, incident_reported) pair is one group.
 SELECT congestion_level,
