@@ -1,5 +1,7 @@
+--Total number of bikes in the bikes table
 SELECT count(*) from mobility.bikes;
 
+--checking the columns of the bikes tables by selection the first 5 rows of the table
 SELECT * 
 FROM mobility.bikes 
 limit 5;
