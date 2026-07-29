@@ -1,0 +1,12 @@
+https://www.geeksforgeeks.org/dbms/difference-between-olap-and-oltp-in-dbms/
+https://www.geeksforgeeks.org/dbms/denormalization-in-databases/
+https://aws.amazon.com/compare/the-difference-between-olap-and-oltp/
+https://www.geeksforgeeks.org/sql/sql-data-types/
+https://www.geeksforgeeks.org/sql/sql-operators/
+https://www.geeksforgeeks.org/sql/sql-ddl-dql-dml-dcl-tcl-commands/
+https://www.geeksforgeeks.org/sql/sql-select-query/
+https://www.geeksforgeeks.org/sql/sql-insert-statement/
+https://www.geeksforgeeks.org/sql/sql-where-clause/
+https://www.geeksforgeeks.org/sql/sql-aliases/
+https://www.geeksforgeeks.org/sql/sql-join-set-1-inner-left-right-and-full-joins/
+https://docs.staruml.io/working-with-additional-diagrams/entity-relationship-diagram
