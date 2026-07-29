@@ -74,10 +74,8 @@ Worked examples on the bike rental database used in class:
 
 | File | Covers |
 |---|---|
-| [bike_rental_schema.sql](../bike_rental_schema.sql) | Table definitions — a live example of the data types in 2.1 |
 | [session7.sql](../session7.sql) | `SELECT`, `LIMIT`, `DISTINCT`, aggregate functions |
 | [session8.sql](../session8.sql) | `WHERE` predicates and every join type |
-| [bike_rental_where_joins.sql](../bike_rental_where_joins.sql) | The same material with fuller comments — the best revision file |
 | [session9.sql](../session9.sql) | `GROUP BY`, alone and combined with `WHERE` |
 
 ---
